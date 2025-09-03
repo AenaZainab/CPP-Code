@@ -7,8 +7,8 @@ int main() {
 	cout<<"\nthe value of b is "<<(float)b;
 	//#########you can also write in this method###############
 	cout<<"the expression is "<<a+b<<endl;
-	cout<<"the expression is "<<a+(int)b<<endl;
-	cout<<"the expression is "<<a+int(b)<<endl;
+	cout<<"the expression is "<<b+(int)a<<endl;
+	cout<<"the expression is "<<b+int(a)<<endl;
 	return 0;	
 }
 
