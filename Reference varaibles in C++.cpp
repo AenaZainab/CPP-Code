@@ -1,12 +1,9 @@
 #include<iostream>
 using namespace std;
-int c=46;
 int main() {
-	float x=455;
-	float&y=x;
+	int x,y;
+	y=x=455;
 	cout<<x<<endl;
 	cout<<y<<endl;
-
-
 return 0;	
 }
